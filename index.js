@@ -46,7 +46,7 @@ app.use((req, res, next) => {
   next(err);
 });
 
-let port = 100102;
+let port = 10102;
 app.set('port', port);
 
 let server = http.createServer(app);
